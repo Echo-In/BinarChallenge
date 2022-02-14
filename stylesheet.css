@@ -1,0 +1,479 @@
+.section-headline {
+  background-image: url(./assets/main-bg.jpg);
+  background-size: cover;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  height: 100vh;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.logo-style {
+  font-size: 24;
+}
+.headline-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translateX(-50%) translateY(-50%);
+  width: 100%;
+}
+.content-title {
+  color: white;
+  font-size: 72px;
+  font-family: "Arial", cursive;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 700;
+  line-height: 83px;
+}
+.content-description {
+  color: white;
+  font-size: 24px;
+  font-family: "Arial", cursive;
+  margin-top: 57.28px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  line-height: 27.6px;
+}
+.btn-playnow {
+  color: black;
+  font-size: 16px;
+  font-family: "Open Sans", cursive;
+  padding: 15px 70px 15px 70px;
+  margin-top: 52.9px;
+  background: linear-gradient(194.68deg, #ffb548 11.27%, #f3af34 90.4%);
+  border-radius: 4px;
+}
+.tostory {
+  position: absolute;
+  bottom: 0;
+  left: 40%;
+  right: 40%;
+  text-align: center;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.section-game{
+  background-image: url(./assets/the-games-bg.jpg);
+  background-size: cover;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  height: 100vh;
+  padding-top: 20vh;
+}
+.game-info-question {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+}
+.game-info-title{
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 64px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.btn-carousel-next{
+  margin-right: -10%;
+}
+.btn-carousel-prev{
+  margin-left: -10%;
+}
+.dot {
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.game-carousel
+{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.section-feature{
+  background-image: url(./assets/features.jpg);
+  background-size: cover;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  height: 100vh;
+  padding-top: 15vh;
+}
+h3.featureQuestion{
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+
+  /* identical to box height */
+  letter-spacing: 2px;
+
+  color: #FFFFFF;
+}
+h1.featureTitle{
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+}
+
+.feature-description-point{
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 2px;
+  color: #FFB548;
+  text-transform: uppercase;
+}
+
+.feature-description-text{
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+
+  /* or 122% */
+  text-align: justify;
+
+  color: #FFFFFF;
+}
+
+.section-requirement{
+  background-image: url(./assets/requirements.png);
+  background-size: cover;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  height: 100vh;
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 15vh;
+}
+
+.requirement-title{
+  /* padding-left: 30%;
+  padding-right: 30%; */
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.requirement-systemreq{
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 45px;
+  line-height: 64px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+}
+.requirement-list{
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+
+  /* identical to box height */
+  letter-spacing: 2px;
+
+  color: #FFB548;
+}
+.requirement-text{
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  
+  /* or 122% */
+  text-align: justify;
+  
+  color: #FFFFFF;
+}
+
+.section-score{
+  background-image: url(./assets/quotes.jpg);
+  background-size: cover;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  height: 100vh;
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 10vh;
+}
+.topscore{
+  padding-top: 15vh;
+  align-content: center;
+}
+.score-header{
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 60px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.score-desc{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+.btn-seemore{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height */
+  text-align: center;
+  text-transform: lowercase;
+  color: black;
+  font-size: 16px;
+  padding: 15px 70px 15px 70px;
+  margin-top: 52.9px;
+  background: linear-gradient(194.68deg, #ffb548 11.27%, #f3af34 90.4%);
+  border-radius: 4px;
+}
+.quote-box{
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
+  /* height: 182px;
+  width: 452px; */
+  height: 25vh;
+  width: 65vh;
+}
+.quote-box-margin1{
+  margin-left: 20vh;
+}
+.quote-box-margin3{
+  margin-left: 13vh;
+}
+.quote-person{
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  /* line-height: 28px; */
+  /* identical to box height */
+  /* letter-spacing: 2px; */
+  color: #FFB548;
+  margin: 0;
+}
+.quote-job{
+  top:0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  /* or 122% */
+  text-align: justify;
+  color: #FFFFFF;
+  opacity: 0.5;
+  margin: 0;
+}
+.quote-text{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  /* line-height: 25px; */
+  color: #FFFFFF;
+}
+.quote-date{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+.image-stack {
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  position: relative;
+}
+.quote-image1 {
+  grid-column: 1 / span 1;
+  grid-row: 1;
+  z-index: 1;
+  align-items: baseline;
+  width: 3.8em;
+  height: 3.8em;
+  border-radius: 50%;
+}
+.quote-image2 {
+  grid-column: 1/-1;
+  grid-row: 1;
+  padding-top: .5em;
+  padding-left: .5em;
+  width: 4em;
+  height: 4em;
+}
+
+.section-bottomline{
+  background-image: url(./assets/bottomline.jpg);
+  background-size: cover;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  height: 100vh;
+}
+
+/* .head-frame{
+  border: radial-gradient(45.43% 53.19% at 50% 50%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 46.15%, #080A0B 99.74%);
+  z-index: 5;
+}
+.head-image{
+  z-index: 1;
+  position: relative;
+} */
+.subscribe-header{
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+
+  /* identical to box height */
+  letter-spacing: 2px;
+
+  color: #FFFFFF;
+}
+.subscribe-text{
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 65px;
+  line-height: 75px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.subscribe-desc{
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  
+  /* or 122% */
+  
+  color: #FFFFFF;
+}
+
+.btn-subscribe{
+  color: black;
+  font-size: 16px;
+  font-family: "Open Sans", cursive;
+  font-weight: bold;
+  height: 60.2510986328125px;
+  width: 260px;
+  left: 1061.06005859375px;
+  top: 510.57666015625px;
+  border-radius: 4px;
+  
+  /* padding: 15px 70px 15px 70px; */
+  margin-top: 52.9px;
+  background: linear-gradient(194.68deg, #ffb548 11.27%, #f3af34 90.4%);
+  border-radius: 4px;
+}
+
+.form-subscribe{
+  background: rgba(255, 255, 255, 0.08);
+  height: 60.2510986328125px;
+  width: 350px;
+  left: 1061.06005859375px;
+  top: 510.57666015625px;
+  padding-right: 25px;
+  margin-top: 52.9px;
+}
+
+.footer-box{
+  background-color: #090a0c;
+  color: white;
+  font-family: "Open Sans", cursive;
+}
+
+.footer-scrollmenu {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.footer-scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.footer-scrollmenu a:hover {
+  background-color: #777;
+}
+
+.footer-copyright{
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.footer-privacypolicy{
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  text-align: right;
+}
+
+.bottom-navbar{
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-decoration-line: none;
+  color: #FFFFFF;
+}
