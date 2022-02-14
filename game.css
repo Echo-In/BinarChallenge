@@ -1,0 +1,79 @@
+body{
+    background-color: #9C835F;
+    font-family: Open Sans;
+}
+
+/* .playgame-header{
+    height: 15vh;
+}
+
+.playgame-main{
+    height: 70vh;
+}
+
+.playgame-footer{
+    height: 15vh;
+} */
+
+.back-sign{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 98px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #724C21;
+}
+
+.game-title{
+    font-size: 2.5em;
+    color: #F9B23D;    
+}
+
+.player-name{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 49px;
+    /* line-height: 0px; */
+    /* letter-spacing: 0.1em; */
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.play-image{
+    width: 100px;
+    height: 75px;
+    margin-top: 25px;
+    margin-bottom: 25px; 
+    margin-left: 37.5px;
+    margin-right: 37.5px;
+}
+
+.play-image-div{
+    border-radius: 4px;
+    width: 175px;
+    height: 125px;
+    /* background-color: #C4C4C4; */
+}
+
+.vs-text{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 144px;
+    line-height: 196px;
+    letter-spacing: 0.1em;
+    color: #bd0000;
+}
+
+.highlight-hover, 
+.highlight-item{
+    background-color: #C4C4C4;
+}
+
+.player-text-div{
+    width: 175px;
+    height : 60px;
+    text-align: center;
+}
