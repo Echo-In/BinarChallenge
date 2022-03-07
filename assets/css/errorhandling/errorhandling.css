@@ -1,0 +1,19 @@
+body{
+    background-color: #9C835F;
+    font-family: Open Sans;
+}
+
+.message-box{
+    
+    background: gray;
+    border-radius: 10px;
+    /* height: 182px;
+    width: 452px; */
+    /* height: 25vh;
+    width: 65vh; */
+    margin-top: 25%;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+    text-align: center;
+}

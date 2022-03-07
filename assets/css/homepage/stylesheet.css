@@ -1,5 +1,5 @@
 .section-headline {
-  background-image: url(./assets/main-bg.jpg);
+  background-image: url(./../../img/homepage/main-bg.jpg);
   background-size: cover;
   background-position-x: 50%;
   background-position-y: 50%;
@@ -29,6 +29,12 @@
   font-weight: 700;
   line-height: 83px;
 }
+.user-name{
+  color: rgba(255,255,255,.55);
+  text-align: justify;
+  padding-top: 15px;
+}
+
 .content-description {
   color: white;
   font-size: 24px;
@@ -62,12 +68,17 @@
   color: #ffffff;
 }
 .section-game{
-  background-image: url(./assets/the-games-bg.jpg);
+  background-image: url(./../../img/homepage/the-games-bg.jpg);
   background-size: cover;
   background-position-x: 50%;
   background-position-y: 50%;
   height: 100vh;
   padding-top: 20vh;
+  position: relative;
+  /* Full height */
+  /* Center and scale the image nicely */
+  /* background-position: center;
+  background-repeat: no-repeat; */
 }
 .game-info-question {
   font-family: Arial;
@@ -111,7 +122,7 @@
 }
 
 .section-feature{
-  background-image: url(./assets/features.jpg);
+  background-image: url(./../../img/homepage/features.jpg);
   background-size: cover;
   background-position-x: 50%;
   background-position-y: 50%;
@@ -168,7 +179,7 @@ h1.featureTitle{
 }
 
 .section-requirement{
-  background-image: url(./assets/requirements.png);
+  background-image: url(./../../img/homepage/requirements.png);
   background-size: cover;
   background-position-x: 50%;
   background-position-y: 50%;
@@ -228,7 +239,7 @@ h1.featureTitle{
 }
 
 .section-score{
-  background-image: url(./assets/quotes.jpg);
+  background-image: url(./../../img/homepage/quotes.jpg);
   background-size: cover;
   background-position-x: 50%;
   background-position-y: 50%;
@@ -348,7 +359,7 @@ h1.featureTitle{
 }
 
 .section-bottomline{
-  background-image: url(./assets/bottomline.jpg);
+  background-image: url(./../../img/homepage/bottomline.jpg);
   background-size: cover;
   background-position-x: 50%;
   background-position-y: 50%;
