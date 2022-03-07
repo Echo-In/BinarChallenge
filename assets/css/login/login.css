@@ -1,0 +1,9 @@
+body{
+    background-color: #9C835F;
+    font-family: Open Sans;
+}
+
+.btn-login{
+    width: 125px; 
+    margin-right: 20px;
+}

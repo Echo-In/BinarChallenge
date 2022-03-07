@@ -58,6 +58,7 @@ body{
     /* background-color: #C4C4C4; */
 }
 
+
 .vs-text{
     font-style: normal;
     font-weight: bold;
@@ -67,6 +68,7 @@ body{
     color: #bd0000;
 }
 
+.hover-highlight:hover,
 .highlight-hover, 
 .highlight-item{
     background-color: #C4C4C4;
@@ -76,4 +78,35 @@ body{
     width: 175px;
     height : 60px;
     text-align: center;
+}
+
+
+.result-banner{
+    height: 166.93px;
+    width: 271.11px;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    transform: rotate(-28.87deg);
+    text-transform: uppercase;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+.hide-banner {
+    display: none;
+}
+
+.win-background-result{
+    background-color: #4C9654;
+}
+
+.draw-background-result{
+    background-color: #035B0C;
+}
+.disable-click{
+    pointer-events:none
 }
